@@ -191,7 +191,7 @@ img {
 /**************Keyframes******************/
 @keyframes setBackground {
   to {
-    background: url('../img/header_img.jpg') #464655;
+    background: url('../../img/header_img.jpg') #464655;
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -375,7 +375,7 @@ img {
   animation-fill-mode: forwards;
 }
 .foodie_header_img .header_learn::after {
-  background-image: url('../img/arrow.svg');
+  background-image: url('../../img/arrow.svg');
   background-position: center;
   background-repeat: no-repeat;
   content: '';
@@ -389,7 +389,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: url('../img/header_img.jpg');
+  background: url('../../img/header_img.jpg');
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -428,7 +428,7 @@ img {
 }
 /**************Call-To-Action******************/
 .call_action {
-  background: url('../img/header_img.jpg');
+  background: url('../../img/header_img.jpg');
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -472,7 +472,7 @@ img {
 .call_action .overlay .action_btn {
   color: #F5EDF6;
   background-color: #ec4834;
-  width: 24rem;
+  width: 22rem;
   height: 4rem;
   padding-top: 0.5rem;
   border-radius: 1rem;
@@ -480,8 +480,10 @@ img {
   margin: 0 auto;
   margin-top: 2rem;
   letter-spacing: 0.4rem;
-  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
   padding-top: 1rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
 }
 .call_action .overlay .action_btn:hover {
   background-color: #f05e4b;

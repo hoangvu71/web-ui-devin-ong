@@ -4,16 +4,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: url('../img/header_img.jpg');
+    background: url('../../img/header_img.jpg');
     .backgroundIt;
     text-align: center;
-
     .box {position: relative;}
-
     .box:hover {
         .author_name {visibility: visible;}
     }
-
     .author_name {
         color: @white-smoke;
         font-size: 1.5rem;
@@ -45,7 +42,7 @@
 /**************Call-To-Action******************/
 
 .call_action {
-    background: url('../img/header_img.jpg');
+    background: url('../../img/header_img.jpg');
     .backgroundIt;
     height: 40vh;
     color: @white-smoke;
@@ -88,9 +85,11 @@
         }
 
         .action_btn {
-            .btnMaker(24rem, 4rem,rgb(236, 72, 52)); 
+            .btnMaker(22rem, 4rem,rgb(236, 72, 52));  
+            .mainFont;
+            padding-top: 1rem;
+            letter-spacing: 0.3rem;   
             text-transform: uppercase;
-            padding-top: 1rem;    
         }
 
         .action_btn:hover{background-color: rgb(240, 94, 75);}
